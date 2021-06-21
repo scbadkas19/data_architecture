@@ -1,0 +1,16 @@
+{
+	"name": "SourceDataset_h8n",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "chevron_Mongo_connector",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "MongoDbV2Collection",
+		"schema": [],
+		"typeProperties": {
+			"collection": "users"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

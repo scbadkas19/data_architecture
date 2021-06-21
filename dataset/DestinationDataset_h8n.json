@@ -1,0 +1,16 @@
+{
+	"name": "DestinationDataset_h8n",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "outputmongoazure",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "CosmosDbMongoDbApiCollection",
+		"schema": [],
+		"typeProperties": {
+			"collection": "Chevron"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

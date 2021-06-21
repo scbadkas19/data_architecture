@@ -1,0 +1,92 @@
+{
+	"name": "SqlServerTable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Chevron_Pulse_sql_server",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [
+			{
+				"name": "Id",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "Name",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Email",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Password",
+				"type": "nvarchar"
+			},
+			{
+				"name": "UserToken",
+				"type": "nvarchar"
+			},
+			{
+				"name": "MailSent",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "PasswordHash",
+				"type": "varchar"
+			},
+			{
+				"name": "UniversalId",
+				"type": "nvarchar"
+			},
+			{
+				"name": "UpdatedOn",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			},
+			{
+				"name": "Disabled",
+				"type": "bit"
+			},
+			{
+				"name": "PasswordExpiry",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			},
+			{
+				"name": "FailedLoginAttemps",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "LastFailedLoginAttempt",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			},
+			{
+				"name": "RememberMeToken",
+				"type": "nvarchar"
+			},
+			{
+				"name": "PasswordChanged",
+				"type": "datetimeoffset",
+				"scale": 7
+			},
+			{
+				"name": "VerifiedPassword",
+				"type": "bit"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "OnlineUser"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

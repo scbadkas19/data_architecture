@@ -1,0 +1,9 @@
+{
+	"name": "BTSdatafactory",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "1f1286dd-2490-4d80-8ac9-9b785b6c2285",
+		"tenantId": "7f602e3c-0f60-42ed-a9cd-df9907a0b0c0"
+	}
+}
